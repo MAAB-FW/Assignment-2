@@ -3,6 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font linked -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icon linked -->
+    <script
+      src="https://kit.fontawesome.com/27d70842ab.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Eco Travel</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -10,18 +26,41 @@
     <header>
       <!-- nav section -->
 
-      <div class="eco-travel">
-        <h2>Eco Travel</h2>
-      </div>
-
       <div class="nav-section">
-        <ul>
-          <li><a href="">Home</a></li>
+        <div class="eco-travel">
+          <img src="Images/Group 40071 (2).png" alt="" />
+          <h2>Eco <span class="travel-orange">Travel</span></h2>
+        </div>
+
+        <div class="nav-menu">
+          <li><a class="home-orange" href="">Home</a></li>
           <li><a href="">Packages</a></li>
           <li><a href="">Testimonial</a></li>
           <li><a href="">Blog</a></li>
           <li><a href="">Contact</a></li>
-        </ul>
+        </div>
+      </div>
+
+      <div class="header-title">
+        <h1 class="explore-your-travel">Explore Your Travel</h1>
+        <p class="are-you-looking-for">
+          Are you looking for inspiration, tips, and resources to help you plan
+          your next trip? Whether you want to explore a new destination,
+          experience a different culture, or enjoy some outdoor activities,
+          Explore Your Travel is the website for you.
+        </p>
+        <div class="choice-option">
+          <input class="common-c-option" type="text" placeholder="Where go" />
+          <select class="common-c-option" name="when" id="when">
+            <option value="">When</option>
+          </select>
+          <select class="common-c-option" name="type" id="type">
+            <option class="common-c-option" value="">Select Type</option>
+          </select>
+          <button class="common-c-option find-now">
+            <i class="fa-solid fa-magnifying-glass"></i>&nbsp; Find Now
+          </button>
+        </div>
       </div>
     </header>
     <main></main>
