@@ -45,6 +45,9 @@ header {
     width: 50%;
 
 }
+.nav-menu li:nth-child(1){
+    display: none;
+}
 
 .eco-travel h2 {
     color: #131318;
