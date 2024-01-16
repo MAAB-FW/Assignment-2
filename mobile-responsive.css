@@ -139,6 +139,33 @@
         margin: 0 24px;
     }
 
+    /* WHY CHOOSE US SECTION STYLE  */
+
+    .wcu-2reason {
+        flex-direction: column;
+    }
+
+    .c-reason h2 {
+        font-size: 20px;
+
+    }
+
+    .c-reason p {
+        width: 271px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .c-reason img {
+        width: 48px;
+    }
+
+    .wcu-3reason {
+        display: block;
+    }
+
+
+
 
 
 
