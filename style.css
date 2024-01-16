@@ -9,7 +9,7 @@ header {
 }
 
 
-/* nav section style  */
+/* header section style  */
 
 .nav-section {
     display: flex;
@@ -142,4 +142,77 @@ header {
     line-height: normal;
     border-radius: 8px;
     background: #FF5400;
+}
+
+
+/* main section style  */
+
+/* OUR POPULAR TOURS  */
+
+.our-popular-tours {
+    display: flex;
+    width: fit-content;
+    margin: 50px auto;
+    align-items: center;
+    gap: 53px;
+}
+
+.opt-content h2 {
+    color: #131318;
+    text-align: left;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+}
+
+.opt-text {
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.opt-content .p1 {
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    margin-top: 24px;
+    margin-bottom: 8px;
+
+}
+
+.opt-content li {
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+    margin: 16px 0;
+}
+
+.opt-content .p2 {
+    color: #5A5A5D;
+    width: 530px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.opt-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 0;
+    background: #FF5400;
+}
+
+.opt-img {
+    width: 540px;
+    height: 550px;
+    flex-shrink: 0;
 }
