@@ -390,6 +390,117 @@ header {
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* DEALS AND DISCOUNTS SECTION STYLE */
+
+
+
+
+.dnd-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+}
+
+.dnd-description {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px auto;
+}
+
+
+
+.dnd-img {
+    background-image: url('Images/Group 39.png');
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 24px auto;
+    position: relative;
+}
+
+
+
+.tour-to-icon {
+    display: flex;
+    gap: 24px;
+}
+
+.i-con {
+    display: flex;
+    gap: 8px;
+    width: 30%;
+}
+
+
+
+
+
+.tour-to {
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    top: 56px;
+    right: 56px;
+    padding: 0px 0px 0px 50px;
+    text-align: left;
+}
+
+.tour-to h3 {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.tour-to p {
+    width: 452px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.tour-to h4 {
+    color: #FF5400;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.dnd-img2 {
+    background-image: url('Images/Group 40.png');
+}
+
+.dnd-img2 .tour-to {
+    left: 56px;
+    top: 56px;
+}
+
+
+
+
+
+
+
+
 /* A Simple Perfect Place To Get Lost SECTION STYLE */
 
 .a-simple-place {
@@ -576,6 +687,11 @@ header {
 
 .nl-input input::placeholder {
     padding: 16px 20px;
+}
+
+.nl-content .opt-btn {
+    width: 393px;
+
 }
 
 
