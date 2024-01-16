@@ -231,7 +231,7 @@ header {
 .section-container {
     margin: 100px auto;
     text-align: center;
-
+    width: fit-content;
 }
 
 .common-title {
@@ -370,6 +370,119 @@ header {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
+
+/* A Simple Perfect Place To Get Lost SECTION STYLE */
+
+.a-simple-place {
+    display: flex;
+    /* width: fit-content; */
+    text-align: left;
+    gap: 28px;
+}
+
+.asp-content h1 {
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    width: 448px;
+}
+
+
+.asp-content p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 532px;
+}
+
+.asp-content li {
+    color: #131318;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    width: 518px;
+}
+
+.asp-svi {
+    width: 610px;
+    height: 424px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background-image: url('Images/Group 40089.png');
+    position: relative;
+}
+
+.asp-svi h2 {
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    display: inline-flex;
+    position: relative;
+    top: 150px;
+    left: 167px;
+}
+
+.controller-p p {
+    color: #FFF;
+    margin: 0;
+}
+
+.left-side {
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    bottom: 45px;
+    left: 24px;
+}
+
+.right-side {
+    position: absolute;
+    display: inline-flex;
+    gap: 16px;
+    bottom: 45px;
+    right: 24px;
+}
+
+.controller-p {
+    display: flex;
+    align-items: center;
+}
+
+#p-bar {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding-right: 475px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* FOOTER SECTION STYLE  */
