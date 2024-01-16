@@ -111,11 +111,33 @@
 
     /* CHOOSE YOUR DESTINATION SECTION STYLE  */
 
-.choose-your-destination{
-    
-}
 
-.cyd-content{}
+    .common-title {
+        font-size: 20px;
+
+    }
+
+    .common-description {
+        width: 309px;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+
+    .cyd-gallery img {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        border-radius: 16px;
+
+    }
+
+    .cyd-gallery {
+        display: inline-block;
+        margin: 0 24px;
+    }
 
 
 
