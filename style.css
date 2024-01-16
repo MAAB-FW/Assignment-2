@@ -220,17 +220,20 @@ header {
 
 /* CHOOSE YOUR DESTINATION SECTION STYLE  */
 
-.choose-your-destination {
+
+
+/* .cyd-content {} */
+
+
+/* COMMON SECTON STYLE  */
+/* COMMON SECTON STYLE  */
+
+.section-container {
     margin: 50px auto;
     text-align: center;
 
 }
 
-.cyd-content {}
-
-
-/* COMMON SECTON STYLE  */
-/* COMMON SECTON STYLE  */
 .common-title {
     color: #131318;
     font-size: 40px;
@@ -305,4 +308,65 @@ header {
 
 /* WHY CHOOSE US SECTION STYLE  */
 
+
+
 .wcu-title {}
+
+.c-reason {
+    padding: 32px;
+    width: fit-content;
+}
+
+.c-reason img {
+    display: block;
+}
+
+.c-reason h2 {
+    color: #131318;
+    text-align: left;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.c-reason p {
+    color: #5A5A5D;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+}
+
+.wcu-3reason {
+    margin-top: 24px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.wcu-2reason {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.price {
+    margin: 0 auto;
+    margin-top: 24px;
+
+}
+
+.map {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.hotel,
+.price {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
