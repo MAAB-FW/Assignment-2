@@ -211,7 +211,7 @@ header {
     background: #FF5400;
 }
 
-.opt-img {
+.opt-img img {
     width: 540px;
     height: 550px;
     flex-shrink: 0;

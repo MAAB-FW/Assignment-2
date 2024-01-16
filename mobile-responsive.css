@@ -66,4 +66,55 @@
     .common-c-option {
         width: 255px;
     }
+
+    /* OUR POPULAR SECTION STYLE  */
+
+
+    .our-popular-tours {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .opt-content h2 {
+        font-size: 20px;
+
+    }
+
+    .opt-text {
+        font-size: 14px;
+        line-height: 24px;
+        width: 335px;
+    }
+
+    .opt-content .p1 {
+        width: 335px;
+        margin-top: 16px;
+        margin-bottom: 4px;
+    }
+
+    .opt-content .p2 {
+        width: 335px;
+        margin-bottom: 24px;
+        margin-top: 4px;
+    }
+
+    .opt-content li {
+        width: 335px;
+        margin: 12px 0;
+    }
+
+    .opt-img img {
+        width: 335px;
+        height: 342px;
+        flex-shrink: 0;
+    }
+
+
+
+
+
+
+
+
+
 }
