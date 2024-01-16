@@ -45,7 +45,8 @@ header {
     width: 50%;
 
 }
-.nav-menu li:nth-child(1){
+
+.nav-menu li:nth-child(1) {
     display: none;
 }
 
