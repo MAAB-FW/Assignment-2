@@ -192,9 +192,68 @@
         width: 309px;
     }
 
+    .dnd-img {
+        width: 335px;
+        height: 500px;
+        flex-shrink: 0;
+        border-radius: 16px;
 
+    }
 
+    .tour-to {
+        width: 303px;
+        /* height: 297px; */
+        flex-shrink: 0;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        bottom: 16px;
+        left: 16px;
+        margin: 0 auto;
+        padding: 24px;
 
+    }
+
+    .dnd-img2 .tour-to {
+        left: 16px;
+        bottom: 16px;
+    }
+
+    .tour-to h3 {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .tour-to p {
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        width: 254px;
+    }
+
+    .tour-to h4 {
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .tour-to-icon {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 0;
+
+    }
 
 
 
