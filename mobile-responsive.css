@@ -104,13 +104,16 @@
     }
 
     .opt-img img {
-        width: 335px;
+        width: 100%;
         height: 342px;
         flex-shrink: 0;
     }
 
     /* CHOOSE YOUR DESTINATION SECTION STYLE  */
 
+    /* .section-container{
+        margin: ;
+    } */
 
     .common-title {
         font-size: 20px;
@@ -127,7 +130,7 @@
     .cyd-gallery img {
         padding-top: 12px;
         padding-bottom: 12px;
-        width: 335px;
+        /* width: 335px; */
         height: 176px;
         flex-shrink: 0;
         border-radius: 16px;
@@ -160,9 +163,7 @@
         width: 48px;
     }
 
-    .wcu-3reason {
-        display: block;
-    }
+
 
 
 
