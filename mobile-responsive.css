@@ -139,7 +139,7 @@
 
     .cyd-gallery {
         display: inline-block;
-        margin: 0 24px;
+        /* margin: 0 24px; */
     }
 
     /* WHY CHOOSE US SECTION STYLE  */
@@ -162,6 +162,88 @@
     .c-reason img {
         width: 48px;
     }
+
+    /* A Simple Perfect Place To Get Lost SECTION STYLE */
+
+    .section-container {
+        margin: 24px 20px;
+    }
+
+    .a-simple-place {
+        flex-direction: column;
+        /* margin: 0 20px; */
+
+    }
+
+    .asp-content h1 {
+        width: 248px;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0;
+    }
+
+    .asp-content p {
+        width: 335px;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 16px 0;
+    }
+
+    .asp-content li {
+        width: 335px;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+
+    .asp-content .opt-btn {
+        margin: 0;
+        margin-top: 8px;
+    }
+
+    .asp-svi {
+        width: 335px;
+        height: 200px;
+        flex-shrink: 0;
+        background-position: cover;
+        margin: 0;
+    }
+
+    .asp-svi h2 {
+        font-size: 20px;
+        line-height: 30px;
+        top: 70px;
+        left: 30px;
+    }
+
+    .r-hide {
+        display: none;
+    }
+
+    .s-hide {
+        display: inline;
+    }
+
+    .left-side {
+        bottom: 28px;
+        left: 16px;
+    }
+
+    .right-side {
+        gap: 12px;
+        bottom: 28px;
+        right: 16px;
+    }
+
+    #p-bar {
+        bottom: 16px;
+        left: 16px;
+        padding-right: 216px;
+    }
+
+
+
+
 
 
 

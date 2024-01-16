@@ -152,9 +152,13 @@ header {
 .our-popular-tours {
     display: flex;
     width: fit-content;
-    margin: 100px auto;
+    /* margin: 100px auto; */
     align-items: center;
     gap: 53px;
+}
+
+.opt-content {
+    text-align: left;
 }
 
 .opt-content h2 {
@@ -173,6 +177,8 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    /* text-align: left; */
+
 }
 
 .opt-content .p1 {
@@ -380,6 +386,10 @@ header {
     gap: 28px;
 }
 
+.asp-content {
+    text-align: left;
+}
+
 .asp-content h1 {
     color: #131318;
     font-size: 40px;
@@ -387,6 +397,7 @@ header {
     font-weight: 800;
     line-height: 60px;
     width: 448px;
+    margin: 0;
 }
 
 
@@ -397,6 +408,7 @@ header {
     font-weight: 400;
     line-height: 26px;
     width: 532px;
+    margin: 24px 0;
 }
 
 .asp-content li {
@@ -406,6 +418,13 @@ header {
     font-weight: 700;
     line-height: 26px;
     width: 518px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.asp-content .opt-btn {
+    margin-top: 16px;
+    margin-bottom: 0;
 }
 
 .asp-svi {
@@ -414,6 +433,7 @@ header {
     flex-shrink: 0;
     border-radius: 16px;
     background-image: url('Images/Group 40089.png');
+    background-repeat: no-repeat;
     position: relative;
 }
 
@@ -434,15 +454,23 @@ header {
 .controller-p p {
     color: #FFF;
     margin: 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .left-side {
     display: flex;
+    align-items: center;
     gap: 12px;
     position: absolute;
     bottom: 45px;
     left: 24px;
 }
+
 
 .right-side {
     position: absolute;
@@ -455,6 +483,10 @@ header {
 .controller-p {
     display: flex;
     align-items: center;
+}
+
+.s-hide {
+    display: none;
 }
 
 #p-bar {
