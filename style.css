@@ -375,7 +375,7 @@ header {
 /* FOOTER SECTION STYLE  */
 
 footer {
-    width: 1440px;
+    width: 100%;
     height: 502px;
     flex-shrink: 0;
     background: rgba(19, 19, 24, 0.05);

@@ -170,7 +170,7 @@
     /* FOOTER SECTION STYLE  */
 
     footer {
-        width: 375px;
+        width: 100%;
         height: 309px;
         flex-shrink: 0;
     }
