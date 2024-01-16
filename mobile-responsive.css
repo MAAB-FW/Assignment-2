@@ -167,7 +167,46 @@
 
 
 
+    /* FOOTER SECTION STYLE  */
 
+    footer {
+        width: 375px;
+        height: 309px;
+        flex-shrink: 0;
+    }
+
+    .f-title h2 {
+        font-size: 21.543px;
+    }
+
+    .f-content p {
+        font-size: 14px;
+        line-height: 24px;
+        width: 287px;
+        margin: 16px auto;
+    }
+
+    .f-title {
+        gap: 9px;
+    }
+
+    .f-title img {
+        width: 28.724px;
+        height: 33.516px;
+        flex-shrink: 0;
+    }
+
+
+    .main-footer {
+        margin: 0 20px;
+        padding-top: 33px;
+        padding-bottom: 24px;
+    }
+
+    footer p {
+        margin-top: 24px;
+        margin-bottom: 31px;
+    }
 
 
 }
