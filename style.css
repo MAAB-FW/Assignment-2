@@ -5,7 +5,7 @@
 
 header {
     margin: 25px 135px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 
@@ -42,7 +42,8 @@ header {
 .nav-menu {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 506px;
+    gap: 44px;
 
 }
 
