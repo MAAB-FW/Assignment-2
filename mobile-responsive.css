@@ -5,6 +5,12 @@
 
     /* header section style  */
 
+    .eco-travel img {
+        width: 28.724px;
+        height: 33.516px;
+        flex-shrink: 0;
+    }
+
     .eco-travel h2 {
         font-size: 21.543px;
 

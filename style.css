@@ -39,6 +39,12 @@ header {
     gap: 16px;
 }
 
+.eco-travel img {
+    width: 48px;
+    height: 56.008px;
+    flex-shrink: 0;
+}
+
 .nav-menu {
     display: flex;
     justify-content: space-between;
