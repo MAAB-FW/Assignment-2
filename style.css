@@ -152,7 +152,7 @@ header {
 .our-popular-tours {
     display: flex;
     width: fit-content;
-    margin: 50px auto;
+    margin: 100px auto;
     align-items: center;
     gap: 53px;
 }
@@ -229,7 +229,7 @@ header {
 /* COMMON SECTON STYLE  */
 
 .section-container {
-    margin: 50px auto;
+    margin: 100px auto;
     text-align: center;
 
 }
@@ -369,4 +369,73 @@ header {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+}
+
+
+/* FOOTER SECTION STYLE  */
+
+footer {
+    width: 1440px;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 0 auto;
+    /* padding-top: 110px; */
+}
+
+.main-footer {
+    padding-top: 110px;
+    padding-bottom: 50px;
+    margin: 0 248px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.05);
+    /* border: 1px solid;   */
+
+
+}
+
+footer p {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+
+footer h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+
+.f-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+.f-content p {
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 15px auto;
+    margin-bottom: 33px;
+
+}
+
+.f-si {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }
