@@ -306,7 +306,7 @@ header {
     grid-area: b-bon;
 }
 
-.cyd-gallery img {
+.pic img {
     width: 100%;
     height: 100%;
 }
@@ -324,7 +324,23 @@ header {
     ;
 }
 
+.pic {
+    position: relative;
+}
 
+.pic p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* WHY CHOOSE US SECTION STYLE  */
 
