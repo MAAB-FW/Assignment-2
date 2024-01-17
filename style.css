@@ -393,9 +393,9 @@ header {
 
 /* BONUS SECTION STYLE  */
 
-.bonus {
-    /* background: rgba(0, 88, 83, 0.05); */
-}
+/* .bonus {
+    background: rgba(0, 88, 83, 0.05);
+} */
 
 .map-bg {
     background-image: url('bonus-reso/world_map_PNG28 1.png');
@@ -453,15 +453,14 @@ header {
 /* DEALS AND DISCOUNTS SECTION STYLE */
 
 
-.dnd-title,
-{
-color: #131318;
-text-align: center;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-margin: 0;
+.dnd-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
 }
 
 .dnd-description,
