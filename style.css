@@ -390,22 +390,82 @@ header {
     background: rgba(233, 68, 68, 0.05);
 }
 
-/* DEALS AND DISCOUNTS SECTION STYLE */
 
+/* BONUS SECTION STYLE  */
 
+.bonus {
+    /* background: rgba(0, 88, 83, 0.05); */
+}
 
+.map-bg {
+    background-image: url('bonus-reso/world_map_PNG28 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-.dnd-title {
-    color: #131318;
+.bonus-content h2 {
+    color: #000;
     text-align: center;
     font-size: 40px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     line-height: normal;
-    margin: 0;
 }
 
-.dnd-description {
+/* .bonus-content p {
+    css on dnd section
+} */
+
+.stats {
+    display: flex;
+    margin: 24px auto;
+    /* border: 1px solid; */
+    align-items: center;
+    gap: 30px;
+}
+
+.stats-item {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #94d3c731;
+
+}
+
+.stats-item img {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.stats-item h4 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+
+/* DEALS AND DISCOUNTS SECTION STYLE */
+
+
+.dnd-title,
+{
+color: #131318;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 0;
+}
+
+.dnd-description,
+.bonus-content p {
     width: 643px;
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
@@ -440,9 +500,6 @@ header {
     gap: 8px;
     width: 30%;
 }
-
-
-
 
 
 .tour-to {
