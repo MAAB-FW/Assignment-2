@@ -278,32 +278,32 @@ header {
 
 
 
-.maldives {
-    grid-area: maldives;
+.mldv {
+    grid-area: mldv;
 }
 
-.indonesia {
-    grid-area: indonesia;
+.indnsa {
+    grid-area: indnsa;
 }
 
-.srilanka {
-    grid-area: srilanka;
+.slnka {
+    grid-area: slnka;
 }
 
 .north-a {
     grid-area: north-a;
 }
 
-.kashmir {
-    grid-area: kashmir;
+.ksmr {
+    grid-area: ksmr;
 }
 
-.bangladesh {
-    grid-area: bangladesh;
+.bd {
+    grid-area: bd;
 }
 
-.bandarban {
-    grid-area: bandarban;
+.b-bon {
+    grid-area: b-bon;
 }
 
 .cyd-gallery img {
@@ -318,11 +318,12 @@ header {
     grid-template-rows: repeat(3, 300px);
     gap: 24px;
     grid-template-areas:
-        "maldives maldives maldives maldives maldives maldives indonesia indonesia indonesia  indonesia indonesia indonesia"
-        "srilanka srilanka srilanka srilanka north-a north-a north-a north-a kashmir kashmir kashmir kashmir"
-        "bangladesh bangladesh bangladesh bangladesh bangladesh bandarban bandarban bandarban bandarban bandarban bandarban bandarban"
+        "mldv mldv mldv mldv mldv mldv indnsa indnsa indnsa  indnsa indnsa indnsa"
+        "slnka slnka slnka slnka north-a north-a north-a north-a ksmr ksmr ksmr ksmr"
+        "bd bd bd bd bd b-bon b-bon b-bon b-bon b-bon b-bon b-bon"
     ;
 }
+
 
 
 /* WHY CHOOSE US SECTION STYLE  */
